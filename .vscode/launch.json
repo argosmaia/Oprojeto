@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Oprojeto}",
+            "name": "Debug OProjeto",
+            "program": "${workspaceFolder:Oprojeto}/.build/debug/OProjeto",
+            "preLaunchTask": "swift: Build Debug OProjeto"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Oprojeto}",
+            "name": "Release OProjeto",
+            "program": "${workspaceFolder:Oprojeto}/.build/release/OProjeto",
+            "preLaunchTask": "swift: Build Release OProjeto"
+        }
+    ]
+}
